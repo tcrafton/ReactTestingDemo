@@ -9,7 +9,7 @@ describe('App', () => {
 
     // create an instance of App
     const component = renderComponent(App);
-    
+
     // Use 'expect' to make an 'assertion' about a target
     expect(component).to.contain('React simple starter');
 
